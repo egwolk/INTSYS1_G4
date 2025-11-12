@@ -10,9 +10,13 @@ A chatbot that gives simple explanations, TTS-friendly outputs, and visual aids 
 
 ## Quick Start (Windows / PowerShell)
 1. Build and start services:
-   - docker-compose up -d
+```powershell
+docker-compose up -d
+``` 
 2. Create the Ollama model from the Modelfile:
-   - docker exec -it ollama ollama create inclusion-bot -f /app/Modelfile
+```powershell
+docker exec -it ollama ollama create inclusion-bot -f /app/Modelfile
+```
 3. Open the frontend:
    - Go to http://localhost:3000
 4. Make an account and start chatting.
@@ -20,7 +24,9 @@ A chatbot that gives simple explanations, TTS-friendly outputs, and visual aids 
    - docker compose down
 
 Note: After making changes to the Modelfile or code, rebuild:
-- docker-compose up --build -d
+```powershell
+docker-compose up --build -d
+```
 
 ## DONE
 - Custom Modelfile created (base: gemma3:4b)
@@ -59,4 +65,4 @@ Note: After making changes to the Modelfile or code, rebuild:
 - Oppas, Roldan P.
 
 ---
-Made with 💗
+## Made with 💗
