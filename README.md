@@ -39,7 +39,6 @@ docker-compose up --build -d
 - Add PDF loader and integrate LangChain
 - Test multi-lingual capabilities of gemma3:4b
 - Add visual learning aid or image generation
-- Add automated tests and CI
 
 ## Resources
 - [Ollama lab module 1.pdf](Resources/ollama%20lab%20module%201.pdf)
