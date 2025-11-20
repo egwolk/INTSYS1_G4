@@ -11,7 +11,7 @@ A chatbot that gives simple explanations, TTS-friendly outputs, and visual aids 
 ## Quick Start (Windows / PowerShell)
 1. Build and start services:
 ```powershell
-docker-compose up -d
+docker compose up -d
 ``` 
 2. Create the Ollama model from the Modelfile:
 ```powershell
